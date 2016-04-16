@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Alternate Fixed And Scroll Backgrounds</title>
+</head>
+<body>
+	<header class="cd-header">
+		<div id="cd-logo"><a href="#"><img src="../img/logo.jpg" alt="Logo"></a></div>
+
+		<nav class="cd-main-nav">
+			<ul>
+				<!-- inser more links here -->
+				<li class="current-menu-item"><a href="index.html">Home</a></li>
+				<li><a href="#about">About 2B</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="#0">Events</a></li>
+				<li><a href="#0">Stores</a></li>
+				<li><a href="#0">Contact us</a></li>
+			</ul>
+		</nav> <!-- cd-main-nav -->
+	</header>
+
+	<main class="cd-main-content">
+		<div class="cd-fixed-bg cd-bg-1">
+			<h1>Colours make the difference</h1>
+		</div> <!-- cd-fixed-bg -->
+
+		<div id="about" class="cd-scrolling-bg cd-color-2">
+			<div class="cd-container">
+				<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>3D Items Quick View</title>
+</head>
+<body>
+	<header>
+		<h1>3D Items Quick View</h1>
+	</header>
+	<ul id="cd-gallery-items" class="cd-container">
+		<li>
+			<ul class="cd-item-wrapper">
+				<li class="cd-item-front"><a href="#0"><img src="img/thumb-1.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-middle"><a href="#0"><img src="img/thumb-2.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-back"><a href="#0"><img src="img/thumb-3.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-out"><a href="#0"><img src="img/thumb-4.jpg" alt="Preview image"></a></li>
+				<!-- <li class="cd-item-out">...</li> -->
+			</ul> <!-- cd-item-wrapper -->
+
+			<div class="cd-item-info">
+				<b><a href="#0">Product Name</a></b>
+				<em>$9.99</em>
+			</div> <!-- cd-item-info -->
+
+			<nav>
+				<ul class="cd-item-navigation">
+					<li><a class="cd-img-replace" href="#0">Prev</a></li>
+					<li><a class="cd-img-replace" href="#0">Next</a></li>
+				</ul>
+			</nav>
+
+			<a class="cd-3d-trigger cd-img-replace" href="#0">Open</a>
+		</li>
+
+		<li>
+			<ul class="cd-item-wrapper">
+				<li class="cd-item-front"><a href="#0"><img src="img/thumb-2.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-middle"><a href="#0"><img src="img/thumb-3.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-back"><a href="#0"><img src="img/thumb-1.jpg" alt="Preview image"></a></li>
+			</ul> <!-- cd-item-wrapper -->
+
+			<div class="cd-item-info">
+				<b><a href="#0">Product Name</a></b>
+				<em>$9.99</em>
+			</div> <!-- cd-item-info -->
+
+			<nav>
+				<ul class="cd-item-navigation">
+					<li><a class="cd-img-replace" href="#0">Prev</a></li>
+					<li><a class="cd-img-replace" href="#0">Next</a></li>
+				</ul>
+			</nav>
+
+			<a class="cd-3d-trigger cd-img-replace" href="#0">Open</a>
+		</li>
+
+		<li>
+			<ul class="cd-item-wrapper">
+				<li class="cd-item-front"><a href="#0"><img src="img/thumb-3.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-middle"><a href="#0"><img src="img/thumb-1.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-back"><a href="#0"><img src="img/thumb-2.jpg" alt="Preview image"></a></li>
+			</ul> <!-- cd-item-wrapper -->
+
+			<div class="cd-item-info">
+				<b><a href="#0">Product Name</a></b>
+				<em>$9.99</em>
+			</div> <!-- cd-item-info -->
+
+			<nav>
+				<ul class="cd-item-navigation">
+					<li><a class="cd-img-replace" href="#0">Prev</a></li>
+					<li><a class="cd-img-replace" href="#0">Next</a></li>
+				</ul>
+			</nav>
+
+			<a class="cd-3d-trigger cd-img-replace" href="#0">Open</a>
+		</li>
+
+		<li>
+			<ul class="cd-item-wrapper">
+				<li class="cd-item-front"><a href="#0"><img src="img/thumb-4.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-middle"><a href="#0"><img src="img/thumb-1.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-back"><a href="#0"><img src="img/thumb-2.jpg" alt="Preview image"></a></li>
+			</ul> <!-- cd-item-wrapper -->
+
+			<div class="cd-item-info">
+				<b><a href="#0">Product Name</a></b>
+				<em>$9.99</em>
+			</div> <!-- cd-item-info -->
+
+			<nav>
+				<ul class="cd-item-navigation">
+					<li><a class="cd-img-replace" href="#0">Prev</a></li>
+					<li><a class="cd-img-replace" href="#0">Next</a></li>
+				</ul>
+			</nav>
+
+			<a class="cd-3d-trigger cd-img-replace" href="#0">Open</a>
+		</li>
+
+		<li>
+			<ul class="cd-item-wrapper">
+				<li class="cd-item-front"><a href="#0"><img src="img/thumb-1.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-middle"><a href="#0"><img src="img/thumb-2.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-back"><a href="#0"><img src="img/thumb-3.jpg" alt="Preview image"></a></li>
+			</ul> <!-- cd-item-wrapper -->
+
+			<div class="cd-item-info">
+				<b><a href="#0">Product Name</a></b>
+				<em>$9.99</em>
+			</div> <!-- cd-item-info -->
+
+			<nav>
+				<ul class="cd-item-navigation">
+					<li><a class="cd-img-replace" href="#0">Prev</a></li>
+					<li><a class="cd-img-replace" href="#0">Next</a></li>
+				</ul>
+			</nav>
+
+			<a class="cd-3d-trigger cd-img-replace" href="#0">Open</a>
+		</li>
+
+		<li>
+			<ul class="cd-item-wrapper">
+				<li class="cd-item-front"><a href="#0"><img src="img/thumb-2.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-middle"><a href="#0"><img src="img/thumb-3.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-back"><a href="#0"><img src="img/thumb-1.jpg" alt="Preview image"></a></li>
+			</ul> <!-- cd-item-wrapper -->
+
+			<div class="cd-item-info">
+				<b><a href="#0">Product Name</a></b>
+				<em>$9.99</em>
+			</div> <!-- cd-item-info -->
+
+			<nav>
+				<ul class="cd-item-navigation">
+					<li><a class="cd-img-replace" href="#0">Prev</a></li>
+					<li><a class="cd-img-replace" href="#0">Next</a></li>
+				</ul>
+			</nav>
+
+			<a class="cd-3d-trigger cd-img-replace" href="#0">Open</a>
+		</li>
+
+		<li>
+			<ul class="cd-item-wrapper">
+				<li class="cd-item-front"><a href="#0"><img src="img/thumb-3.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-middle"><a href="#0"><img src="img/thumb-2.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-back"><a href="#0"><img src="img/thumb-4.jpg" alt="Preview image"></a></li>
+			</ul> <!-- cd-item-wrapper -->
+
+			<div class="cd-item-info">
+				<b><a href="#0">Product Name</a></b>
+				<em>$9.99</em>
+			</div> <!-- cd-item-info -->
+
+			<nav>
+				<ul class="cd-item-navigation">
+					<li><a class="cd-img-replace" href="#0">Prev</a></li>
+					<li><a class="cd-img-replace" href="#0">Next</a></li>
+				</ul>
+			</nav>
+
+			<a class="cd-3d-trigger cd-img-replace" href="#0">Open</a>
+		</li>
+
+		<li>
+			<ul class="cd-item-wrapper">
+				<li class="cd-item-front"><a href="#0"><img src="img/thumb-4.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-middle"><a href="#0"><img src="img/thumb-1.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-back"><a href="#0"><img src="img/thumb-2.jpg" alt="Preview image"></a></li>
+			</ul> <!-- cd-item-wrapper -->
+
+			<div class="cd-item-info">
+				<b><a href="#0">Product Name</a></b>
+				<em>$9.99</em>
+			</div> <!-- cd-item-info -->
+
+			<nav>
+				<ul class="cd-item-navigation">
+					<li><a class="cd-img-replace" href="#0">Prev</a></li>
+					<li><a class="cd-img-replace" href="#0">Next</a></li>
+				</ul>
+			</nav>
+
+			<a class="cd-3d-trigger cd-img-replace" href="#0">Open</a>
+		</li>
+
+		<li>
+			<ul class="cd-item-wrapper">
+				<li class="cd-item-front"><a href="#0"><img src="img/thumb-1.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-middle"><a href="#0"><img src="img/thumb-2.jpg" alt="Preview image"></a></li>
+				<li class="cd-item-back"><a href="#0"><img src="img/thumb-3.jpg" alt="Preview image"></a></li>
+			</ul> <!-- cd-item-wrapper -->
+
+			<div class="cd-item-info">
+				<b><a href="#0">Product Name</a></b>
+				<em>$9.99</em>
+			</div> <!-- cd-item-info -->
+
+			<nav>
+				<ul class="cd-item-navigation">
+					<li><a class="cd-img-replace" href="#0">Prev</a></li>
+					<li><a class="cd-img-replace" href="#0">Next</a></li>
+				</ul>
+			</nav>
+
+			<a class="cd-3d-trigger cd-img-replace" href="#0">Open</a>
+		</li>
+	</ul> <!-- cd-gallery-items --> cd-container -->
+		</div> <!-- cd-scrolling-bg -->
+
+		<div class="cd-fixed-bg cd-bg-2">
+			<h2>I like long romantic walks to the makup aisle</h2>
+		</div> <!-- cd-fixed-bg -->
+
+		<div class="cd-scrolling-bg cd-color-3">
+			<div class="cd-container">
+				<p>
+				2B is for everyone who likes colour and fun in their lives. 2B is very budget friendly. This means that you have the possibility to experiment with a lot of different irresistible colours and delicious textures. 2B will sebuce you!
+				<br></br>
+				Find 2B in Belgium, the Netherlands and France. In Belgium, 2B is for sale at Kruidvat, Di, Dreamland, Carrefour, Colruyt, Inno, Lediscount, Cora and Suprabazar. In the Netherlands, 2B is for sale at many independent grocereies. Parashop is the place to be in France. 
+				</p>
+			</div> <!-- cd-container -->
+		</div> <!-- cd-scrolling-bg -->
+
+		<div class="cd-fixed-bg cd-bg-3">
+			<h2>Go check out our products</h2>
+		</div> <!-- cd-fixed-bg -->
+	</main> <!-- cd-main-content -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
