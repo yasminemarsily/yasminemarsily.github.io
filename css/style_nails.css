@@ -1,0 +1,1411 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: "Roboto", sans-serif;
+  background: url("../img/achtergrond4.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: 100%;  opacity: 0.8%;
+}
+
+body, html {
+  /* important */
+  height: 100%;
+}
+
+a {
+  color: #b4d7a8;
+  text-decoration: none;
+}
+h1{
+  font-size: 2em;
+}
+h3{
+  font-size: 3em;
+  margin-bottom: 3%;
+  font-family: "A day in september";
+}
+.current-menu-item{
+background:#F6CEE3;
+}
+.eerste,.tweede,.derde,.vierde{
+  margin: 0.5% 2%;
+}
+.eerste:hover ,.tweede:hover,.derde:hover,.vierde:hover{
+  opacity: 0.5;
+}
+.logo{
+  margin-top: -23%;
+}
+.logo2{
+  margin-top: 12%;
+  margin-left: 35%;
+}
+.tagline{
+  margin-top: 2%;
+  float: left;
+  margin-left: 3%;
+  text-transform: uppercase;
+  color: #C0004E;
+}
+.onzichtbaar{
+  display: none;
+  opacity: 0;
+}
+.producten:click .onzichtbaar{
+  opacity: 1;
+  display: inline;
+}
+.kaders .tekst{
+  width: 400px;
+  margin-top: 18%;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+.kaders{
+  margin-top: 12%;
+}
+.achter{
+  background-color: rgba(255,255,255,0.6);
+}
+.tekst2{
+  float: left;
+  margin-top: 20%;
+  margin-left: 18%;
+}
+.tekst3{
+  float: left;
+  margin-top: 18%;
+}
+.kaart{
+  margin-top: 15%;
+  margin-right: 8%;
+  border: 10px solid rgba(0,0,0,0.2);
+  float: right;
+}
+.showme{
+  display: none;
+  margin-left: 15%;
+  font-size: 0.6em;
+  color: black;
+  background-color: rgba(255,255,255,0.8);
+  border: 10px solid rgba(0,0,0,0.2);
+
+}
+.showme a{
+  color: black;
+  padding-top: 15%;
+}
+.showme img{
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.belgium .showme{
+  width: 750px;
+}
+.netherlands .showme{
+  width: 750px;
+}
+.france .showme{
+  width: 750px;
+}
+.belgium:hover, .france:hover, .netherlands:hover{
+  color: gray;
+  cursor: pointer; cursor: hand;
+}
+.belgium:hover .showme{
+  display: block;
+}
+.netherlands:hover .showme{
+  display: block;
+}
+.france:hover .showme{
+  display: block;
+}
+.winkels{
+  padding-top: 20%;
+}
+.belgium, .netherlands, .france{
+  margin-left: 25%;
+  font-size: 1.5em;
+  display: block;
+}
+.foto{
+  margin-left: 20%;
+  margin-top: 15%;
+  float: left;
+}
+
+.ogen{
+  float: right;
+}
+.nagels{
+  float: right;
+}
+
+.dropdown-content p{
+  font-size: 85%;
+  text-transform: none;
+  position: absolute;
+  float: left;
+  margin-top: -3%;
+}
+.line{
+  height: 1.5px;
+  background-color: black;
+  width: 330px;
+}
+a p {
+  text-align: center;
+}
+
+
+.sub p{
+  float: left;
+  margin-left: -12%;
+  margin-top: 2%;
+  text-align: center;
+
+}
+
+
+.gezicht{
+  float: left;
+  text-align: center;
+  width: 350px;
+}
+.lippen{
+  float: left;
+  text-align: center;
+}
+.nagels{
+  float: left;
+  text-align: center;
+  width: 350px;
+}
+.ogen{
+  float: right;
+  text-align: center;
+  width: 300px;
+  margin-right: 2%;
+}
+.sub3 p{
+  float: left;
+  margin-left: -12%;
+  margin-top: 2%;
+  display: block;
+}
+.sub3 .woord2{
+  margin-top: -0.5%;
+}
+.sub3 .woord3{
+  margin-top: -3%;
+}
+.sub3 .woord4{
+  margin-top: -5.2%;
+}
+.sub3 .woord5{
+  margin-top: -7.2%;
+}
+.sub3 .woord6{
+  margin-top: -9.2%;
+}
+.sub3 .woord7{
+  margin-top: -11.2%;
+}
+.sub3 .woord8{
+  margin-top: -13.2%;
+}
+.sub3 .woord10{
+  margin-top: -0.2%;
+}
+.sub3 .woord11{
+  margin-top: -2.7%;
+}
+.sub3 .woord12{
+  margin-top: -5%;
+}
+.sub3 .woord13{
+  margin-top: -7.2%;
+}
+.sub3 .woord14{
+  margin-top: -9.2%;
+}
+.sub3 .woord15{
+  margin-top: -11.2%;
+}
+.sub3 .woord16{
+  margin-top: -13.2%;
+}
+.sub3 .woord17{
+  margin-top: -15.2%;
+}
+.sub3 .woord18{
+  margin-top: -3.6%;
+}
+.sub3 .woord19{
+  margin-top: -5.6%;
+}
+.sub3 .woord20{
+  margin-top: -7.6%;
+}
+.sub3 .woord21{
+  margin-top: -9.6%;
+}
+.sub4 .woord22{
+  margin-top: 1.8%;
+}
+.sub4 .woord23{
+  margin-top: -0.6%;
+}
+.sub4 .woord24{
+  margin-top: -2.6%;
+}
+.sub4 .woord25{
+  margin-top: -4.6%;
+}
+.sub4 .woord26{
+  margin-top: -6.6%;
+}
+.sub4 p{
+  float: left;
+  margin-left: -9%;
+  margin-top: 2%;
+}
+.sub6 p{
+  float: left;
+  margin-top: 2%;
+  margin-left: -5%;
+}
+h8{
+  font-size: 1.2em;
+}
+.sub5 p{
+  margin-left: -10%;
+  text-align: center;
+}
+.line2{
+  margin-left: 5%;
+  height: 2px;
+  width: 330px;
+  background-color: black;
+}
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    opacity: 0.95;
+    min-width: 1360px;
+    max-height: 550px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -845%;
+}
+
+.dropdown:hover .dropdown-content {
+    display:  block;
+}
+.kaders{
+  margin-left: 5%;
+}
+
+.kaders2{
+  margin-left:5%;
+}
+.kaders3{
+  margin-left: 25%;
+}
+.kaders p, .kader2 p, .kaders3 p{
+  font-family: "A day in september";
+  font-size: 3em;
+  color: rgb(173,23,57);
+}
+.kleuren{
+  font-size: 0.8em;
+  padding-top: 5%;
+  padding-right: 23.5%;
+  float: left;
+}
+.kleuren2{
+  float: right;
+  margin-top: 3.5%;
+  margin-right: 32.5%;
+  font-size: 0.8em;
+}
+.kleuren3{
+  font-size: 0.8em;
+  padding-top: 25%;
+  margin-left: -30.5%;
+  float: left;
+}
+.kleuren4{
+  float: left;
+  margin-top: 3.5%;
+  margin-right: 32.5%;
+  font-size: 0.8em;
+}
+.kleuren5{
+  float: right;
+  margin-top: -92%;
+  margin-right: -125%;
+}
+.kleuren6{
+  float: right;
+  margin-top: -17.5%;
+  margin-right: 45%;
+  font-size: 0.8em;
+}
+.kleuren7{
+  font-size: 0.8em;
+  padding-top: 25%;
+  margin-left: -33.5%;
+  float: left;
+}
+.kleuren8{
+  float: right;
+  margin-top: -18%;
+  margin-right: 40%;
+  font-size: 0.8em;
+}
+.kleuren9{
+  float: right;
+  margin-top: -18%;
+  margin-right: 40%;
+  font-size: 0.8em;
+}
+.kleuren10{
+  float: right;
+  margin-top: -23.5%;
+  margin-right: 40%;
+  font-size: 0.8em;
+}
+.kleuren11{
+  float: right;
+  margin-top: 1%;
+  margin-right: 32.5%;
+  font-size: 0.8em;
+}
+.kleuren12{
+  float: right;
+  margin-top: 2.5%;
+  margin-right: 42.5%;
+  font-size: 0.8em;
+}
+.kleuren13{
+  float: left;
+  margin-top: 5%;
+  margin-left: -15%;
+  font-size: 0.8em;
+}
+.kleuren14{
+  float: left;
+  font-size: 0.8em;
+}
+.kleuren15{
+  float: left;
+  margin-left: -16%;
+  margin-top: 5%;
+}
+.kleuren16{
+  float: left;
+  margin-left: -30.5%;
+  margin-top: 25%;
+}
+
+.scrollen{
+  padding-top: 45%;
+  padding-left: 50%;
+  opacity: 0.6;
+}
+
+.font{
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+.font2{
+    margin-top: 0.5%;
+  margin-bottom: 0.5%;
+
+}
+.font:hover{
+  height: 70px;
+  width: 70px;
+}
+
+.onderste{
+  margin-left: -82%;
+  background-color: rgba(255,255,255,0.5);
+  height: 100px;
+}
+.onderste p{
+  text-align: center;
+  text-transform: uppercase;
+}
+.yasmine{
+  margin-top: -3.5%;
+  margin-bottom: 2%;
+  font-size: 0.7em;
+  margin-left: 4%;
+}
+.foun{
+  display: none;
+}
+.foun2{
+  display: none;
+}
+.foun3,.foun4,.foun5,.foun6,.foun7,.foun8, .foun9,.foun10,.foun11,.foun12,.foun13,.foun14,.foun15,.foun16,.foun17, .foun18,.foun19,.foun20,.foun21,.foun22,.foun23,.foun24,.foun25,.foun26{
+  display: none;
+}
+.sub3 p:hover .foun{
+  display: block;
+  margin-left: 165%;
+  margin-top: -25%;
+}
+.sub3 p:hover .foun2{
+  display: block;
+  margin-left: 175%;
+  margin-top: -55%;
+}
+.sub3 p:hover .foun3{
+  display: block;
+  margin-left: 175%;
+  margin-top: -25%;
+}
+.sub3 p:hover .foun4{
+  display: block;
+  margin-left: 175%;
+  margin-top: -15%;
+}
+.sub3 p:hover .foun5{
+  display: block;
+  margin-left: 168%;
+  margin-top: -30%;
+}
+.sub3 p:hover .foun6{
+  display: block;
+  margin-left: 158%;
+  margin-top: -45%;
+}
+.sub3 p:hover .foun7{
+  display: block;
+  margin-left: 168%;
+  margin-top: -45%;
+}
+.sub3 p:hover .foun8{
+  display: block;
+  margin-left: 168%;
+  margin-top: -45%;
+}
+.sub3 p:hover .foun9{
+  display: block;
+  margin-left: 168%;
+  margin-top: -45%;
+}
+.sub3 p:hover .foun10{
+  display: block;
+  margin-left: 168%;
+  margin-top: -45%;
+}
+.sub3 p:hover .foun11{
+  display: block;
+  margin-left: 168%;
+  margin-top: -45%;
+}
+.sub3 p:hover .foun12{
+  display: block;
+  margin-left: 168%;
+  margin-top: -45%;
+}
+.sub3 p:hover .foun13{
+  display: block;
+  margin-left: 168%;
+  margin-top: -45%;
+}
+.sub3 p:hover .foun14{
+  display: block;
+  margin-left: 168%;
+  margin-top: -45%;
+}
+.sub3 p:hover .foun15{
+  display: block;
+  margin-left: 168%;
+  margin-top: -45%;
+}
+.sub3 p:hover .foun16{
+  display: block;
+  margin-left: 168%;
+  margin-top: -45%;
+}
+.sub3 p:hover .foun17{
+  display: block;
+  margin-left: 168%;
+  margin-top: -45%;
+}
+.sub3 p:hover .foun18{
+  display: block;
+  margin-left: 168%;
+  margin-top: -55%;
+}
+.sub3 p:hover .foun19{
+  display: block;
+  margin-left: 168%;
+  margin-top: -55%;
+}
+.sub3 p:hover .foun20{
+  display: block;
+  margin-left: 168%;
+  margin-top: -55%;
+}
+.sub3 p:hover .foun21{
+  display: block;
+  margin-left: 168%;
+  margin-top: -55%;
+}
+.sub4 p:hover .foun22{
+  display: block;
+  margin-left: 168%;
+  margin-top: -55%;
+}
+.sub4 p:hover .foun23{
+  display: block;
+  margin-left: 168%;
+  margin-top: -55%;
+}
+.sub4 p:hover .foun24{
+  display: block;
+  margin-left: 168%;
+  margin-top: -55%;
+}
+.sub4 p:hover .foun25{
+  display: block;
+  margin-left: 168%;
+  margin-top: -55%;
+}
+.sub4 p:hover .foun26{
+  display: block;
+  margin-left: 168%;
+  margin-top: -55%;
+}
+.woord:hover{
+  margin-left: -13.48%;  
+}
+.woord2:hover{
+  margin-left: -14.58%;  
+}
+.woord3:hover{
+  margin-left: -13.08%;
+}
+.woord4:hover{
+  margin-left: -12.3%;
+}
+.woord5:hover{
+  margin-left: -12.35%;
+}
+.woord6:hover{
+  margin-left: -12%;
+}
+.woord7:hover{
+  margin-left: -14.32%;
+}
+.woord8:hover{
+  margin-left: -13.68%;
+}
+.woord9:hover{
+  margin-left: -14.15%;
+}
+.woord10:hover{
+  margin-left: -13.6%;
+}
+.woord11:hover{
+  margin-left: -13.7%;
+}
+.woord12:hover{
+  margin-left: -13.3%;
+}
+.woord13:hover{
+  margin-left: -14%;
+}
+.woord14:hover{
+  margin-left: -13.8%;
+}
+.woord15:hover{
+  margin-left: -13.4%;
+}
+.woord16:hover{
+  margin-left: -12%;
+}
+.woord17:hover{
+  margin-left: -14.3%;
+}
+.woord18:hover{
+  margin-left: -13.6%;
+}
+.woord19:hover{
+  margin-left: -14.2%;
+}
+.woord20:hover{
+  margin-left: -13.9%;
+}
+.woord21:hover{
+  margin-left: -12.2%;
+}
+.woord22:hover{
+  margin-left: -11%;
+}
+.woord23:hover{
+  margin-left: -10.45%;
+}
+.woord24:hover{
+  margin-left: -9.8%;
+}
+.woord25:hover{
+  margin-left: -10%;
+}
+.woord26:hover{
+  margin-left: -10.2%;
+}
+.tri{
+  display: block;
+  width: 400px;
+  margin-left: 55%;
+  margin-top: -3.5%;
+  background-color: rgba(255,255,255,0.4);
+  border: 10px solid rgba(0,0,0,0.2);
+  padding: 2%;
+  font-family: "Roboto", sans-serif;
+}
+.tri2{
+  display: block;
+  width: 400px;
+  margin-left: 55%;
+  margin-top: -3.5%;
+  background-color: rgba(255,255,255,0.4);
+  border: 10px solid rgba(0,0,0,0.2);
+  padding: 2%;
+    font-family: "Roboto", sans-serif;
+
+}
+.about{
+  width: 850px;
+  padding-top: 20%;
+  margin: 0% 20% auto;
+}
+.nails_foto{
+  margin-top: 7%;
+  margin-left:11%;
+}
+.subber{
+  margin-left: 18%;
+  margin-top: 15%;
+}
+.pijl{
+  margin-top: -5%;
+  margin-bottom: -19%;
+}
+.afbeelding{
+  float: right;
+  margin-top: -48%;
+  margin-right: 18%;
+  transform: rotate(15deg);
+}
+.afbeelding2{
+  float: right;
+  margin-top: -38%;
+  margin-right: 5%;
+  transform: rotate(-3deg);
+}
+.afbeelding3{
+ float: right;
+  margin-top: -18%;
+  transform: rotate(15deg);
+}
+.afbeelding4{
+  float: right;
+  margin-top: -7%;
+  margin-right: 60%;
+  transform: rotate(-3deg);
+}
+.event1{
+  float: left;
+  width: 450px;
+  margin-left: 5%;
+  background-color: rgba(255,255,255,0.6);
+  padding: 2%;
+}
+.event2{
+  float: right;
+  width: 450px;
+  margin-right: 10%;
+  background-color: rgba(255,255,255,0.6);
+  padding: 2%;
+}
+.event3{
+  float: right;
+  width: 450px;
+  margin-right: 10%;
+  background-color: rgba(255,255,255,0.6);
+  padding: 2%;
+  margin-top: 5%;
+}
+.titeltje{
+  font-size: 2em;
+  font-family: "A day in september";
+}
+/* -------------------------------- 
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+.cd-container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+.cd-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}
+.event1 .h2{
+  font-size: 2em;
+}
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+.cd-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+.cd-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cd-header #cd-logo {
+  float: left;
+  margin: 13px 0 0 5%;
+}
+.cd-header #cd-logo img {
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  .cd-header {
+    height: 70px;
+  }
+  .cd-header #cd-logo {
+    margin: 23px 0 0 5%;
+  }
+}
+
+.cd-main-nav {
+  float: right;
+  margin-right: 5%;
+  width: 44px;
+  height: 100%;
+  background: url("../img/meisje.jpg") no-repeat center center;
+  background-size: 44px 44px;
+  cursor: pointer;
+}
+.cd-main-nav ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.cd-main-nav ul.is-visible {
+  -webkit-transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  -o-transform: translateY(50px);
+  transform: translateY(50px);
+}
+.cd-main-nav a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 5%;
+  background: #2f292a;
+  border-top: 1px solid #453c3d;
+  color: #8e7d7f;
+}
+@media only screen and (min-width: 768px) {
+  .cd-main-nav {
+    width: auto;
+    height: auto;
+    background: none;
+    cursor: auto;
+  }
+  .cd-main-nav ul {
+    position: static;
+    width: auto;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    line-height: 70px;
+  }
+  .cd-main-nav ul.is-visible {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .cd-main-nav li {
+    display: inline-block;
+    margin-left: 1em;
+  }
+  .cd-main-nav a {
+    display: inline-block;
+    height: auto;
+    line-height: normal;
+    background: transparent;
+    padding: .6em 1em;
+    border-top: none;
+    color: #3d3536;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+  .no-touch .cd-main-nav a:hover {
+    color: #99a478;
+  }
+}
+
+.cd-main-content {
+  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.cd-fixed-bg {
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+
+.cd-fixed-bg-2 {
+  position: relative;
+  min-height: 150%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+  margin-top: 8%;
+}
+.cd-fixed-bg-2 h1{
+  position: absolute;
+  left: 50%;
+  top: 8%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+  font-size: 30px;
+  font-size: 1.875rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+.cd-fixed-bg-2 h2{
+  position: absolute;
+  left: 50%;
+  top: -2%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+  font-size: 30px;
+  font-size: 1.875rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+.cd-fixed-bg h1, .cd-fixed-bg h2{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+  max-width: 1470px;
+  text-align: center;
+  font-size: 80px;
+  font-size: 10.875rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: #AD1739;
+}
+
+.pagina h1, .pagina h2,.pagina2 h1, .pagina2 h2, .pagina3 h1, .pagina3 h2, .pagina4 h1, .pagina4 h2, .pagina5 h1, .pagina5 h2{
+  position: absolute;
+  left: 50%;
+  top: -8%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+  max-width: 1470px;
+  text-align: center;
+  font-size: 80px;
+  font-size: 10.875rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: #AD1739;
+}
+.pagina h1, .pagina h2,.pagina2 h1, .pagina2 h2, .pagina3 h1, .pagina3 h2, .pagina4 h1, .pagina4 h2, .pagina5 h1, .pagina5 h2{
+  color: #C0004E;
+  margin-top: 15%;
+  font-size: 50px;
+}
+.pagina p, .pagina2 p, .pagina3 p, .pagina4 p, .pagina5 p{
+  font-size: 30px;
+}
+.cd-bg-5 h1, .cd-bg-7 h2{
+  color: #C0004E;
+  margin-top: -15%;
+  font-size: 50px;
+}
+.cd-bg-5 h3{
+  font-size: 50px;
+  color: #C0004E;
+  margin-left: 40%;  
+}
+.cd-bg-8 h1{
+  margin-top: -15%;
+}
+.cd-bg-8 h2{
+  margin-top: -30%;
+}
+.cd-bg-9 h2{
+  margin-top: -30%;
+}
+.cd-bg-6 h1{
+  color: black;
+  margin-top: -25%;
+  margin-left: -35%;
+}
+.cd-bg-7 h2{
+  color: #C0004E;
+  margin-top: 5%;
+}
+.cd-bg-5 h1{
+  margin-top: -3%;
+}
+
+.lipstick{
+  margin-top: 15%;
+  margin-left: 6%;
+  float: left;
+  background-color: white;
+}
+.lipstick p{
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  background-color: rgba(176,102,187,0.6);
+  font-size: 3em;
+
+}
+.bronzing{
+  margin-top: 25%;
+  margin-left: 6%;
+  float: left;
+    background-color: white;
+}
+.bronzing p{
+  text-transform: uppercase;
+  color: black;
+    background-color: rgba(176,102,187,0.6);
+    font-size: 3em;
+}
+.bronzing2{
+  margin-top: 25%;
+  margin-left: 2%;
+  float: left;
+    background-color: white;
+
+}
+.bronzing2 p{
+  text-transform: uppercase;
+  color: black;
+    background-color: rgba(176,102,187,0.6);
+    font-size: 3em;
+}
+.bronzing2 img{
+  padding-left: 5%;
+}
+.hydrastick{
+  float: left;
+  margin-top: 15%;
+  margin-left: 2%;
+  background-color: white;
+}
+.hydrastick p{
+  text-transform: uppercase;
+  color: black;
+  background-color: rgba(176,102,187,0.6);
+  font-size: 3em;
+}
+ .deligloss{
+  float: left;
+  margin-top: 15%;
+  margin-left: 2%;
+  background-color: white;
+
+ }
+.deligloss p{
+  text-transform: uppercase;
+  color: black;
+  background-color: rgba(176,102,187,0.6);
+  font-family: "A day in september";
+  font-size: 3em;
+}
+.popuplips{
+  float: left;
+  margin-top: 15%;
+  margin-left: 2%;
+  background-color: white;
+}
+.popuplips p, .lipliner p{
+  text-transform: uppercase;
+  color: black;
+  background-color: rgba(176,102,187,0.6);
+  font-family: "A day in september";
+  font-size: 3em;
+}
+.lipliner{
+  float: left;
+  margin-top: 5%;
+  margin-left: 6%;
+  background-color: white;
+
+}
+.foundation p, .foundation2 p, .foundation3 p,.foundation5 p, .foundation6 p, .foundation7 p,.foundation8 p, .foundation9 p{
+  text-transform: uppercase;
+  color: black;
+  background-color: rgba(176,102,187,0.6);
+  font-family: "A Day in september";
+  font-size: 3em;
+}
+.foundation{
+  float: left;
+  margin-top: 5%;
+  margin-left: 6%;
+  background-color: white;
+}
+.foundation p{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.foundation img{
+  margin-left: 25%;
+}
+.foundation2{
+  float: left;
+  margin-top: 15%;
+  margin-left: 2%;
+  background-color: white;
+
+}
+.foundation3{
+  float: left;
+  margin-top: 15%;
+  margin-left: 2%;
+    background-color: white;
+
+}
+.foundation5{
+  float: left;
+  margin-top: 15%;
+  margin-left: 5%;
+  margin-right: -6%;
+    background-color: white;
+
+}
+.foundation6{
+   float: left;
+    margin-top: 15%;
+    margin-left: 2%;
+    background-color: white;
+
+}
+.foundation7{
+  float: left;
+  margin-top: 15%;
+  margin-left: 5%;
+    background-color: white;
+
+}
+.foundation8{
+  float: left;
+  margin-top: 15%;
+  width: 250px;
+    background-color: white;
+
+}
+.foundation9{
+  float: left;
+  margin-top: 15%;
+  margin-left: 8.5%;
+    background-color: white;
+
+}
+.mattlips{
+  float: left;
+  margin-top: 5%;
+  margin-left: 2%;
+    background-color: white;
+
+}
+.mattlips p{
+  text-transform: uppercase;
+  color: black;
+    background-color: rgba(176,102,187,0.6);
+
+}
+.lipgloss3d{
+  float: left;
+  margin-top: 5%;
+  margin-left: 2%;
+      background-color: white;
+
+}
+.lipgloss3d p{
+  padding-left: 5%;
+  text-transform: uppercase;
+  color: black;
+    background-color: rgba(176,102,187,0.6);
+
+}
+.lipglosslonglasting{
+  float: left;
+  margin-top: 5%;
+  margin-left: 2%;
+      background-color: white;
+
+}
+.lipglosslonglasting p{
+  padding-left: 5%;
+  text-transform: uppercase;
+  color: black;
+      background-color: rgba(176,102,187,0.6);
+
+}
+.rollon{
+  float: left;
+  margin-top: 5%;
+  margin-left: 6%;
+        background-color: white;
+
+}
+.rollon p{
+  padding-left: 5%;
+  color: black;
+  text-transform: uppercase;
+      background-color: rgba(176,102,187,0.6);
+
+}
+.open{
+  background-color: #F8E0F7;
+  margin-top: -2%;
+}
+.open p{
+  padding-top: 1.5%;
+  padding-left: 48%;
+  font-size: 0.8em;
+
+}
+.open2{
+  margin-top: 35%;
+  background-color: #F8E0F7;
+}
+.open2 p{
+  padding-top: 2%;
+  padding-left: 48%;
+  font-size: 0.8em;
+}
+.talen{
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  font-size: 30px;
+  font-size: 1.875rem;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2%;
+  border-radius: 8px;
+}
+.talen a{
+  color: black;
+  font-size: 30px;
+}
+.talen a:hover{
+  color: pink;
+}
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../img/redhead2.png");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../img/balloonlady6.png");
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../img/meisje2.png");
+}
+.pagina{
+  background-image: url("../img/achter.png");
+}
+.pagina2{
+  background-image: url("../img/achtergrond2.png");
+}
+.pagina3{
+  background: url("../img/achtergrond3.png");
+}
+.pagina4{
+  background-image: url("../img/achtergrond4.png");
+}
+.pagina5{
+  background-image: url("../img/achtergrond5.png");
+}
+.cd-fixed-bg.cd-bg-6 {
+    background-image: url("../img/bloemen.jpg");
+}
+.cd-fixed-bg.cd-bg-7 {
+  background-image: url("../img/flowergirl4.png");
+}
+.cd-fixed-bg.cd-bg-8{
+  background-image: url("../img/achtergrond.png");
+}
+.cd-fixed-bg.cd-bg-9{
+  background-image: url("../img/achtergrond.png");
+}
+@media only screen and (min-width: 768px) {
+  .cd-fixed-bg h1, .cd-fixed-bg h2 {
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .cd-fixed-bg {
+    background-attachment: fixed;
+  }
+  .cd-fixed-bg h1, .cd-fixed-bg h2 {
+    font-size: 48px;
+    font-weight: 300;
+  }
+}
+
+.cd-scrolling-bg {
+  position: relative;
+  min-height: 100%;
+  padding: 4em 0;
+  line-height: 1.6;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.cd-scrolling-bg.cd-color-1 {
+  background-color: #3d3536;
+  color: #a6989a;
+}
+.cd-scrolling-bg.cd-color-2 {
+  background-color: #F6CED8;
+  color: #3d3536;
+}
+.cd-scrolling-bg.cd-color-3 {
+  background-color:  #CEECF5;
+  color: #3d3536;
+}
+@media only screen and (min-width: 768px) {
+  .cd-scrolling-bg {
+    padding: 8em 0;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 300;
+  }
+}
+@media screen and (max-width: 1150px){
+.tagline{
+  font-size: 0.8em;
+}
+}
+@media screen and (max-width: 1050px){
+.tagline{
+  font-size: 0.6em;
+  margin-top:3%;
+}
+}
+@media screen and (max-width: 1000px){
+.tagline{
+  font-size: 0em
+}
+.cd-main-nav{
+  display: none;
+}
+}
