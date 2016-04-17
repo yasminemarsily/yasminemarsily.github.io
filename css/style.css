@@ -744,6 +744,12 @@ h8{
   margin-right: 60%;
   transform: rotate(-3deg);
 }
+.afbeelding5{
+  float: right;
+  margin-top: -30%;
+  margin-right: 5%;
+  transform: rotate(-3deg);
+}
 .event1{
   float: left;
   width: 450px;
