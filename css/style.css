@@ -1206,27 +1206,26 @@ Main components
   float: left;
   margin-top: 5%;
   margin-left: 2%;
-    background-color: white;
-
+  background-color: white;
 }
 .mattlips p{
   text-transform: uppercase;
   color: black;
-    background-color: rgba(176,102,187,0.6);
-
+  background-color: rgba(176,102,187,0.6);
+  font-size:3em;
 }
 .lipgloss3d{
   float: left;
   margin-top: 5%;
   margin-left: 2%;
-      background-color: white;
-
+  background-color: white;
 }
 .lipgloss3d p{
   padding-left: 5%;
   text-transform: uppercase;
   color: black;
-    background-color: rgba(176,102,187,0.6);
+  background-color: rgba(176,102,187,0.6);
+  font-size:3em;
 
 }
 .lipglosslonglasting{
@@ -1240,7 +1239,8 @@ Main components
   padding-left: 5%;
   text-transform: uppercase;
   color: black;
-      background-color: rgba(176,102,187,0.6);
+  background-color: rgba(176,102,187,0.6);
+  font-size:3em;
 
 }
 .rollon{
@@ -1255,6 +1255,7 @@ Main components
   color: black;
   text-transform: uppercase;
       background-color: rgba(176,102,187,0.6);
+  font-size:3em;
 
 }
 .open{
