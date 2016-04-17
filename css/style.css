@@ -377,7 +377,7 @@ h8{
 .kleuren7{
   font-size: 0.8em;
   padding-top: 25%;
-  margin-left: -30.5%;
+  margin-left: -33.5%;
   float: left;
 }
 .kleuren8{
@@ -426,10 +426,11 @@ h8{
   margin-top: 5%;
 }
 .kleuren16{
-  float:left;
-  margin-left:15%;
-  margin-top:5%;
+  float: left;
+  margin-left: -30.5%;
+  margin-top: 25%;
 }
+
 .scrollen{
   padding-top: 45%;
   padding-left: 50%;
@@ -1211,26 +1212,27 @@ Main components
   float: left;
   margin-top: 5%;
   margin-left: 2%;
-  background-color: white;
+    background-color: white;
+
 }
 .mattlips p{
   text-transform: uppercase;
   color: black;
-  background-color: rgba(176,102,187,0.6);
-  font-size:3em;
+    background-color: rgba(176,102,187,0.6);
+
 }
 .lipgloss3d{
   float: left;
   margin-top: 5%;
   margin-left: 2%;
-  background-color: white;
+      background-color: white;
+
 }
 .lipgloss3d p{
   padding-left: 5%;
   text-transform: uppercase;
   color: black;
-  background-color: rgba(176,102,187,0.6);
-  font-size:3em;
+    background-color: rgba(176,102,187,0.6);
 
 }
 .lipglosslonglasting{
@@ -1244,8 +1246,8 @@ Main components
   padding-left: 5%;
   text-transform: uppercase;
   color: black;
-  background-color: rgba(176,102,187,0.6);
-  font-size:3em;
+      background-color: rgba(176,102,187,0.6);
+
 }
 .rollon{
   float: left;
@@ -1259,7 +1261,6 @@ Main components
   color: black;
   text-transform: uppercase;
       background-color: rgba(176,102,187,0.6);
-  font-size:3em;
 
 }
 .open{
@@ -1331,7 +1332,7 @@ Main components
   background-image: url("../img/achtergrond.png");
 }
 .cd-fixed-bg.cd-bg-9{
-  background-image: url("../img/flowergirl4.png");
+  background-image: url("../img/achtergrond.png");
 }
 @media only screen and (min-width: 768px) {
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
@@ -1376,4 +1377,23 @@ Main components
     line-height: 2;
     font-weight: 300;
   }
+}
+@media screen and (max-width: 1150px){
+.tagline{
+  font-size: 0.8em;
+}
+}
+@media screen and (max-width: 1050px){
+.tagline{
+  font-size: 0.6em;
+  margin-top:3%;
+}
+}
+@media screen and (max-width: 1000px){
+.tagline{
+  font-size: 0em
+}
+.cd-main-nav{
+  display: none;
+}
 }
