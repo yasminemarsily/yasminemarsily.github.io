@@ -335,14 +335,28 @@ h8{
 
 .kaders2{
   margin-left:5%;
+  width: 1050px;
 }
 .kaders3{
   margin-left: 25%;
 }
-.kaders p, .kader2 p, .kaders3 p{
+.kaders p, .kader2 p, .kaders3 p, .kaders4 p{
   font-family: "A day in september";
   font-size: 3em;
   color: rgb(173,23,57);
+}
+.kaders4{
+  width: 1050px;
+  margin-top: 8%;
+  float: left;
+  margin-left: 10%;
+}
+.kaders4 .tekst{
+  width: 400px;
+  float: left;
+  margin-top: 18%;
+  font-family: "A day in september";
+  font-size: 1.8em;
 }
 .kleuren{
   font-size: 0.8em;
@@ -1014,11 +1028,14 @@ Main components
   font-size: 10.875rem;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   color: #AD1739;
+
 }
 .pagina h1, .pagina h2,.pagina2 h1, .pagina2 h2, .pagina3 h1, .pagina3 h2, .pagina4 h1, .pagina4 h2, .pagina5 h1, .pagina5 h2{
   color: #C0004E;
   margin-top: 15%;
-  font-size: 50px;
+  font-size: 80px;
+  font-family: 'Shadows Into Light Two', cursive;
+
 }
 .pagina p, .pagina2 p, .pagina3 p, .pagina4 p, .pagina5 p{
   font-size: 30px;
@@ -1026,7 +1043,9 @@ Main components
 .cd-bg-5 h1, .cd-bg-7 h2{
   color: #C0004E;
   margin-top: -15%;
-  font-size: 50px;
+  font-size: 80px;
+    font-family: 'Shadows Into Light Two', cursive;
+
 }
 .cd-bg-5 h3{
   font-size: 50px;
@@ -1050,6 +1069,8 @@ Main components
 .cd-bg-7 h2{
   color: #C0004E;
   margin-top: 5%;
+    font-family: 'Shadows Into Light Two', cursive;
+
 }
 .cd-bg-5 h1{
   margin-top: -3%;

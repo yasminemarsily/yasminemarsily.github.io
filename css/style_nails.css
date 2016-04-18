@@ -79,8 +79,13 @@ background:#F6CEE3;
   font-family: "Roboto", sans-serif;
   font-size: 1em;
 }
+.kaders2 p{
+  font-size: 1em;
+}
 .kaders{
-  margin-top: 12%;
+  width: 750px;
+  margin-top: 15%;
+  float: left;
 }
 .achter{
   background-color: rgba(255,255,255,0.6);
@@ -328,14 +333,17 @@ h8{
     display:  block;
 }
 .kaders{
-  margin-left: 5%;
+  margin-left: 12%;
+  width: 850px;
 }
 
 .kaders2{
   margin-left:5%;
+  width: 750px;
 }
 .kaders3{
   margin-left: 25%;
+  padding-top: 15%;
 }
 .kaders p, .kader2 p, .kaders3 p{
   font-family: "A day in september";
@@ -1012,19 +1020,24 @@ Main components
   font-size: 10.875rem;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   color: #AD1739;
+  font-family: "basic title font";
 }
 .pagina h1, .pagina h2,.pagina2 h1, .pagina2 h2, .pagina3 h1, .pagina3 h2, .pagina4 h1, .pagina4 h2, .pagina5 h1, .pagina5 h2{
   color: #C0004E;
   margin-top: 15%;
-  font-size: 50px;
+  font-size: 100px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.pagina h1{
+  font-size: 80px;
 }
 .pagina p, .pagina2 p, .pagina3 p, .pagina4 p, .pagina5 p{
   font-size: 30px;
 }
 .cd-bg-5 h1, .cd-bg-7 h2{
   color: #C0004E;
-  margin-top: -15%;
-  font-size: 50px;
+  font-size: 80px;
+  font-family: 'Shadows Into Light Two', cursive;
 }
 .cd-bg-5 h3{
   font-size: 50px;
@@ -1110,11 +1123,25 @@ Main components
  .deligloss{
   float: left;
   margin-top: 15%;
-  margin-left: 2%;
+  margin-left: 6%;
   background-color: white;
 
  }
 .deligloss p{
+  text-transform: uppercase;
+  color: black;
+  background-color: rgba(176,102,187,0.6);
+  font-family: "A day in september";
+  font-size: 3em;
+}
+ .foundation11{
+  float: left;
+  margin-top: 15%;
+  margin-left: 2%;
+  background-color: white;
+
+ }
+.foundation11 p{
   text-transform: uppercase;
   color: black;
   background-color: rgba(176,102,187,0.6);

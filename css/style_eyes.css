@@ -74,13 +74,33 @@ background:#F6CEE3;
 }
 .kaders .tekst{
   width: 400px;
-  margin-top: 18%;
+  margin-top: 15%;
   float: left;
   font-family: "Roboto", sans-serif;
   font-size: 1em;
 }
 .kaders{
-  margin-top: 20%;
+  margin-top: 15%;
+  float: left;
+  width: 750px;
+}
+.kaders4{
+  width: 1050px;
+  margin-top: 8%;
+  float: left;
+  margin-left: 10%;
+}
+.kaders4 .tekst{
+  width: 400px;
+  float: left;
+  margin-top: 18%;
+  font-family: "A day in september";
+  font-size: 2em;
+}
+.kaders4 p{
+    font-family: "A day in september";
+  font-size: 3em;
+  color: rgb(173,23,57);
 }
 .achter{
   background-color: rgba(255,255,255,0.6);
@@ -333,10 +353,12 @@ h8{
 
 .kaders2{
   margin-left:5%;
+  width: 750px;
 }
 .kaders3{
   margin-left: 25%;
 }
+
 .kaders p, .kader2 p, .kaders3 p{
   font-family: "A day in september";
   font-size: 3em;
@@ -1016,15 +1038,24 @@ Main components
 .pagina h1, .pagina h2,.pagina2 h1, .pagina2 h2, .pagina3 h1, .pagina3 h2, .pagina4 h1, .pagina4 h2, .pagina5 h1, .pagina5 h2{
   color: #C0004E;
   margin-top: 15%;
-  font-size: 50px;
+  font-size: 80px;
+  font-family: 'Shadows Into Light Two', cursive;
+
 }
 .pagina p, .pagina2 p, .pagina3 p, .pagina4 p, .pagina5 p{
   font-size: 30px;
 }
-.cd-bg-5 h1, .cd-bg-7 h2{
+.cd-bg-5 h1{
   color: #C0004E;
   margin-top: -15%;
   font-size: 50px;
+}
+.cd-bg-7 h2{
+color: #C0004E;
+  margin-top: -15%;
+  font-size: 80px;
+    font-family: 'Shadows Into Light Two', cursive;
+
 }
 .cd-bg-5 h3{
   font-size: 50px;
@@ -1121,6 +1152,20 @@ Main components
   font-family: "A day in september";
   font-size: 3em;
 }
+ .foundation11{
+  float: left;
+  margin-top: 5%;
+  margin-left: 6%;
+  background-color: white;
+
+ }
+.foundation11 p{
+  text-transform: uppercase;
+  color: black;
+  background-color: rgba(176,102,187,0.6);
+  font-family: "A day in september";
+  font-size: 3em;
+}
 .popuplips{
   float: left;
   margin-top: 15%;
@@ -1128,6 +1173,19 @@ Main components
   background-color: white;
 }
 .popuplips p, .lipliner p{
+  text-transform: uppercase;
+  color: black;
+  background-color: rgba(176,102,187,0.6);
+  font-family: "A day in september";
+  font-size: 3em;
+}
+.foundation12{
+  float: left;
+  margin-top: 5%;
+  margin-left: 2%;
+  background-color: white;
+}
+.foundation12 p{
   text-transform: uppercase;
   color: black;
   background-color: rgba(176,102,187,0.6);

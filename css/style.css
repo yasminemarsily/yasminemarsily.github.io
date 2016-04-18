@@ -79,6 +79,24 @@ background:#F6CEE3;
   font-family: "Roboto", sans-serif;
   font-size: 1em;
 }
+.kaders4 p{
+  font-family: "A day in september";
+  font-size: 3em;
+  color: rgb(173,23,57);
+}
+.kaders4{
+  width: 1050px;
+  margin-top: 8%;
+  float: left;
+  margin-left: 10%;
+}
+.kaders4 .tekst{
+  width: 400px;
+  float: left;
+  margin-top: 18%;
+  font-family: "A day in september";
+  font-size: 2em;
+}
 .achter{
   background-color: rgba(255,255,255,0.6);
 }
@@ -744,12 +762,6 @@ h8{
   margin-right: 60%;
   transform: rotate(-3deg);
 }
-.afbeelding5{
-  float: right;
-  margin-top: -36%;
-  margin-right: 5%;
-  transform: rotate(-3deg);
-}
 .event1{
   float: left;
   width: 450px;
@@ -997,7 +1009,7 @@ Main components
   color: #AD1739;
 }
 
-.pagina h1, .pagina h2,.pagina2 h1, .pagina2 h2{
+.pagina h1, .pagina h2,.pagina2 h1, .pagina2 h2, .pagina3 h1, .pagina3 h2, .pagina4 h1, .pagina4 h2, .pagina5 h1, .pagina5 h2{
   position: absolute;
   left: 50%;
   top: -8%;
@@ -1016,12 +1028,14 @@ Main components
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   color: #AD1739;
 }
-.pagina h1, .pagina h2,.pagina2 h1, .pagina2 h2{
+.pagina h1, .pagina h2,.pagina2 h1, .pagina2 h2, .pagina3 h1, .pagina3 h2, .pagina4 h1, .pagina4 h2, .pagina5 h1, .pagina5 h2{
   color: #C0004E;
   margin-top: 15%;
-  font-size: 50px;
+  font-size: 80px;
+    font-family: 'Shadows Into Light Two', cursive;
+
 }
-.pagina p, .pagina2 p{
+.pagina p, .pagina2 p, .pagina3 p, .pagina4 p, .pagina5 p{
   font-size: 30px;
 }
 .cd-bg-5 h1, .cd-bg-7 h2{
@@ -1036,12 +1050,18 @@ Main components
 }
 .cd-bg-8 h1{
   margin-top: -15%;
+    font-family: 'Shadows Into Light Two', cursive;
+
 }
 .cd-bg-8 h2{
   margin-top: -30%;
+    font-family: 'Shadows Into Light Two', cursive;
+
 }
 .cd-bg-9 h2{
   margin-top: -30%;
+    font-family: 'Shadows Into Light Two', cursive;
+
 }
 .cd-bg-6 h1{
   color: black;
@@ -1323,10 +1343,19 @@ Main components
   background-image: url("../img/meisje2.png");
 }
 .pagina{
-  background-image: url("../img/achtergrond.png");
+  background-image: url("../img/achter.png");
 }
 .pagina2{
   background-image: url("../img/achtergrond2.png");
+}
+.pagina3{
+  background: url("../img/achtergrond3.png");
+}
+.pagina4{
+  background-image: url("../img/achtergrond4.png");
+}
+.pagina5{
+  background-image: url("../img/achtergrond5.png");
 }
 .cd-fixed-bg.cd-bg-6 {
     background-image: url("../img/bloemen.jpg");
@@ -1339,6 +1368,182 @@ Main components
 }
 .cd-fixed-bg.cd-bg-9{
   background-image: url("../img/achtergrond.png");
+}
+.menu {
+  font-size:1em;
+  font-family: 'Comfortaa', cursive;
+}
+
+.menu div {
+  margin: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #E71D73;
+  font-size: 1.5em;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.menu div:last-child {
+  border: 0;
+}
+
+.menu--off {
+  font-family: 'A day in september';
+  font-size: 1em;
+  text-transform: lowercase;
+  color: #E71D73;
+  position: absolute;
+  left: -50%;
+  width: 25%;
+  display: block;
+  background: white;
+  min-height: 280px;
+  margin-top: 1em;
+  transition: all 300ms;
+}
+
+.menu--on {
+  left: 0;
+  box-shadow: 8px 8px 20px 0 rgba(0, 0, 0, 0.2);
+  transition: all 300ms;
+}
+
+.material-design-hamburger button {
+  display: block;
+  border: none;
+  background: none;
+  outline: 0;
+}
+
+.material-design-hamburger__icon {
+  padding: 2rem 1rem;
+  cursor: pointer;
+}
+
+.face:hover.onzichtbaar{
+  display: block;
+}
+.material-design-hamburger__layer {
+  display: block;
+  width: 90px;
+  height: 8px;
+  background: #E71D73;
+  position: relative;
+  animation-duration: 300ms;
+  animation-timing-function: ease-in-out;
+}
+
+.material-design-hamburger__layer:before, .material-design-hamburger__layer:after {
+  display: block;
+  width: inherit;
+  height: 10px;
+  position: absolute;
+  background: inherit;
+  left: 0;
+  content: '';
+  animation-duration: 300ms;
+  animation-timing-function: ease-in-out;
+}
+
+.material-design-hamburger__layer:before {
+  bottom: 200%;
+}
+
+.material-design-hamburger__layer:after {
+  top: 200%;
+}
+
+.material-design-hamburger__icon--to-arrow {
+  animation-name: material-design-hamburger__icon--slide;
+  animation-fill-mode: forwards;
+}
+
+.material-design-hamburger__icon--to-arrow:before {
+  animation-name: material-design-hamburger__icon--slide-before;
+  animation-fill-mode: forwards;
+}
+
+.material-design-hamburger__icon--to-arrow:after {
+  animation-name: material-design-hamburger__icon--slide-after;
+  animation-fill-mode: forwards;
+}
+
+.material-design-hamburger__icon--from-arrow {
+  animation-name: material-design-hamburger__icon--slide-from;
+}
+
+.material-design-hamburger__icon--from-arrow:before {
+  animation-name: material-design-hamburger__icon--slide-before-from;
+}
+
+.material-design-hamburger__icon--from-arrow:after {
+  animation-name: material-design-hamburger__icon--slide-after-from;
+}
+
+@keyframes material-design-hamburger__icon--slide {
+  0% {
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes material-design-hamburger__icon--slide-before {
+  0% {
+  }
+  100% {
+    transform: rotate(45deg);
+    margin: 3% 37%;
+    width: 75%;
+  }
+}
+
+@keyframes material-design-hamburger__icon--slide-after {
+  0% {
+  }
+  100% {
+    transform: rotate(-45deg);
+    margin: 3% 37%;
+    width: 75%;
+  }
+}
+
+@keyframes material-design-hamburger__icon--slide-from {
+  0% {
+    transform: rotate(-180deg);
+  }
+  100% {
+  }
+}
+
+@keyframes material-design-hamburger__icon--slide-before-from {
+  0% {
+    transform: rotate(45deg);
+    margin: 3% 37%;
+    width: 75%;
+  }
+  100% {
+  }
+}
+
+@keyframes material-design-hamburger__icon--slide-after-from {
+  0% {
+    transform: rotate(-45deg);
+    margin: 3% 37%;
+    width: 75%;
+  }
+  100% {
+  }
+}
+.wrapper{
+  display: none;
 }
 @media only screen and (min-width: 768px) {
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
@@ -1389,17 +1594,68 @@ Main components
   font-size: 0.8em;
 }
 }
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1100px){
+.tagline{
+  font-size: 0.7em;
+}
+.scrollen{
+  display: none;
+}
+}
+@media screen and (max-width: 1048px){
 .tagline{
   font-size: 0.6em;
   margin-top:3%;
 }
+
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1040px){
 .tagline{
   font-size: 0em
 }
 .cd-main-nav{
   display: none;
+}
+.wrapper{
+  display: block;
+}
+.logo{
+  width: 50px;
+}
+.wrapper{
+  display: block;
+}
+}
+@media screen and (max-width: 800px){
+  .material-design-hamburger__layer{
+    width: 60px;
+    height: 4px;
+    margin-top: -0.5em;
+  }
+}
+@media screen and (max-width: 650px){
+
+}
+@media screen and (max-width: 500px){
+.scrollen{
+  display: none;
+}
+.logo{
+  width: 50px;
+}
+.wrapper{
+  display: block;
+}
+.cd-bg-2{
+  display: none;
+}
+.cd-bg-3{
+  display: none;
+}
+.cd-container p{
+  font-size: 0.6em;
+}
+.cd-scrolling-bg{
+  height: 250px;
 }
 }

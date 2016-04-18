@@ -1079,7 +1079,9 @@ Main components
 .pagina h1, .pagina h2,.pagina2 h1, .pagina2 h2, .pagina3 h1, .pagina3 h2, .pagina4 h1, .pagina4 h2, .pagina5 h1, .pagina5 h2{
   color: #C0004E;
   margin-top: 15%;
-  font-size: 50px;
+  font-size: 80px;
+    font-family: 'Shadows Into Light Two', cursive;
+
 }
 .pagina p, .pagina2 p, .pagina3 p, .pagina4 p, .pagina5 p{
   font-size: 30px;
@@ -1186,7 +1188,7 @@ Main components
 }
 .popuplips{
   float: left;
-  margin-top: 15%;
+  margin-top: 5%;
   margin-left: 2%;
   background-color: white;
 }
@@ -1214,7 +1216,7 @@ Main components
 .foundation{
   float: left;
   margin-top: 5%;
-  margin-left: 20%;
+  margin-left: 6%;
   background-color: white;
 }
 .foundation p{
@@ -1227,16 +1229,40 @@ Main components
 .foundation2{
   float: left;
   margin-top: 15%;
-  margin-left: 2%;
+  margin-left: 6%;
   background-color: white;
 
 }
 .foundation3{
   float: left;
   margin-top: 15%;
-  margin-left: 5%;
+  margin-left: 2%;
     background-color: white;
-
+}
+ .foundation11{
+  float: left;
+  margin-top: 5%;
+  margin-left: 6%;
+  background-color: white;
+ }
+  .foundation12{
+      float: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  background-color: white;
+  }
+    .foundation13{
+      float: left;
+  margin-top: 15%;
+  margin-left: 2%;
+  background-color: white;
+  }
+.foundation11 p,.foundation12 p, .foundation13 p{
+  text-transform: uppercase;
+  color: black;
+  background-color: rgba(176,102,187,0.6);
+  font-family: "A day in september";
+  font-size: 3em;
 }
 .foundation5{
   float: left;
@@ -1248,7 +1274,7 @@ Main components
 }
 .foundation6{
    float: left;
-    margin-top: 15%;
+    margin-top: 5%;
     margin-left: 2%;
     background-color: white;
 
